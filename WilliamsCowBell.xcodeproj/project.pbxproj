@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490277B21815C59C005B779B /* WCBShakingPlayingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 490277B11815C59C005B779B /* WCBShakingPlayingManager.m */; };
+		490277B31815C59C005B779B /* WCBShakingPlayingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 490277B11815C59C005B779B /* WCBShakingPlayingManager.m */; };
+		49507BFC1821C70100CE8979 /* libFlurry_4.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49507BFB1821C70100CE8979 /* libFlurry_4.3.0.a */; };
+		49507BFE1821C71B00CE8979 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49507BFD1821C71B00CE8979 /* SystemConfiguration.framework */; };
+		49507C001821C72600CE8979 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49507BFF1821C72600CE8979 /* Security.framework */; };
 		495761B9180E075A005F5330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495761B8180E075A005F5330 /* Foundation.framework */; };
 		495761BB180E075A005F5330 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495761BA180E075A005F5330 /* CoreGraphics.framework */; };
 		495761BD180E075A005F5330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495761BC180E075A005F5330 /* UIKit.framework */; };
@@ -23,6 +28,24 @@
 		495761E0180E075B005F5330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495761BC180E075A005F5330 /* UIKit.framework */; };
 		495761E8180E075B005F5330 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495761E6180E075B005F5330 /* InfoPlist.strings */; };
 		495761EA180E075B005F5330 /* WilliamsCowBellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495761E9180E075B005F5330 /* WilliamsCowBellTests.m */; };
+		495761F6180EECED005F5330 /* GoofyCowbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 495761F3180EECED005F5330 /* GoofyCowbell.mp3 */; };
+		495761F7180EECED005F5330 /* SoftCowbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 495761F4180EECED005F5330 /* SoftCowbell.mp3 */; };
+		495761F8180EECED005F5330 /* TinnyCowbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 495761F5180EECED005F5330 /* TinnyCowbell.mp3 */; };
+		495761FD180EEF83005F5330 /* WCBCowbellPageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 495761FC180EEF83005F5330 /* WCBCowbellPageData.m */; };
+		49576201180EF099005F5330 /* goofy_cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 495761FF180EF099005F5330 /* goofy_cow.png */; };
+		49576202180EF099005F5330 /* purple_cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 49576200180EF099005F5330 /* purple_cow.png */; };
+		49576204180F23C2005F5330 /* TinnyShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49576203180F23C2005F5330 /* TinnyShort.mp3 */; };
+		49576207180F26C8005F5330 /* GoofyShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49576205180F26C8005F5330 /* GoofyShort.mp3 */; };
+		49576208180F26C8005F5330 /* SoftShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49576206180F26C8005F5330 /* SoftShort.mp3 */; };
+		49B7426718136D69004F07DA /* face_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B7426418136D69004F07DA /* face_icon@2x.png */; };
+		49B7426818136D69004F07DA /* icon_purple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B7426518136D69004F07DA /* icon_purple@2x.png */; };
+		49B7426918136D69004F07DA /* icon_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B7426618136D69004F07DA /* icon_yellow@2x.png */; };
+		49EAEF3A181364BE00B709EB /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EAEF34181364BE00B709EB /* app_icon.png */; };
+		49EAEF3B181364BE00B709EB /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EAEF35181364BE00B709EB /* app_icon@2x.png */; };
+		49EAEF3C181364BE00B709EB /* cow_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EAEF36181364BE00B709EB /* cow_face.png */; };
+		49EAEF3D181364BE00B709EB /* hero_cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EAEF37181364BE00B709EB /* hero_cow.png */; };
+		49EAEF3E181364BE00B709EB /* NormalCowbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49EAEF38181364BE00B709EB /* NormalCowbell.mp3 */; };
+		49EAEF3F181364BE00B709EB /* NormalShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49EAEF39181364BE00B709EB /* NormalShort.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490277B01815C59C005B779B /* WCBShakingPlayingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBShakingPlayingManager.h; sourceTree = "<group>"; };
+		490277B11815C59C005B779B /* WCBShakingPlayingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCBShakingPlayingManager.m; sourceTree = "<group>"; };
+		49507BFA1821C70100CE8979 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		49507BFB1821C70100CE8979 /* libFlurry_4.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.0.a; sourceTree = "<group>"; };
+		49507BFD1821C71B00CE8979 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		49507BFF1821C72600CE8979 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		495761B5180E075A005F5330 /* WilliamsCowBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilliamsCowBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495761B8180E075A005F5330 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		495761BA180E075A005F5330 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,6 +88,25 @@
 		495761E5180E075B005F5330 /* WilliamsCowBellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WilliamsCowBellTests-Info.plist"; sourceTree = "<group>"; };
 		495761E7180E075B005F5330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		495761E9180E075B005F5330 /* WilliamsCowBellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilliamsCowBellTests.m; sourceTree = "<group>"; };
+		495761F3180EECED005F5330 /* GoofyCowbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = GoofyCowbell.mp3; path = Resources/GoofyCowbell.mp3; sourceTree = "<group>"; };
+		495761F4180EECED005F5330 /* SoftCowbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SoftCowbell.mp3; path = Resources/SoftCowbell.mp3; sourceTree = "<group>"; };
+		495761F5180EECED005F5330 /* TinnyCowbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TinnyCowbell.mp3; path = Resources/TinnyCowbell.mp3; sourceTree = "<group>"; };
+		495761FB180EEF83005F5330 /* WCBCowbellPageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBCowbellPageData.h; sourceTree = "<group>"; };
+		495761FC180EEF83005F5330 /* WCBCowbellPageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCBCowbellPageData.m; sourceTree = "<group>"; };
+		495761FF180EF099005F5330 /* goofy_cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goofy_cow.png; path = Resources/goofy_cow.png; sourceTree = "<group>"; };
+		49576200180EF099005F5330 /* purple_cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purple_cow.png; path = Resources/purple_cow.png; sourceTree = "<group>"; };
+		49576203180F23C2005F5330 /* TinnyShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TinnyShort.mp3; path = Resources/TinnyShort.mp3; sourceTree = "<group>"; };
+		49576205180F26C8005F5330 /* GoofyShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = GoofyShort.mp3; path = Resources/GoofyShort.mp3; sourceTree = "<group>"; };
+		49576206180F26C8005F5330 /* SoftShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SoftShort.mp3; path = Resources/SoftShort.mp3; sourceTree = "<group>"; };
+		49B7426418136D69004F07DA /* face_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "face_icon@2x.png"; path = "Resources/face_icon@2x.png"; sourceTree = "<group>"; };
+		49B7426518136D69004F07DA /* icon_purple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_purple@2x.png"; path = "Resources/icon_purple@2x.png"; sourceTree = "<group>"; };
+		49B7426618136D69004F07DA /* icon_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_yellow@2x.png"; path = "Resources/icon_yellow@2x.png"; sourceTree = "<group>"; };
+		49EAEF34181364BE00B709EB /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_icon.png; path = Resources/app_icon.png; sourceTree = "<group>"; };
+		49EAEF35181364BE00B709EB /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app_icon@2x.png"; path = "Resources/app_icon@2x.png"; sourceTree = "<group>"; };
+		49EAEF36181364BE00B709EB /* cow_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cow_face.png; path = Resources/cow_face.png; sourceTree = "<group>"; };
+		49EAEF37181364BE00B709EB /* hero_cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_cow.png; path = Resources/hero_cow.png; sourceTree = "<group>"; };
+		49EAEF38181364BE00B709EB /* NormalCowbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = NormalCowbell.mp3; path = Resources/NormalCowbell.mp3; sourceTree = "<group>"; };
+		49EAEF39181364BE00B709EB /* NormalShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = NormalShort.mp3; path = Resources/NormalShort.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +114,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49507C001821C72600CE8979 /* Security.framework in Frameworks */,
+				49507BFE1821C71B00CE8979 /* SystemConfiguration.framework in Frameworks */,
 				495761BB180E075A005F5330 /* CoreGraphics.framework in Frameworks */,
+				49507BFC1821C70100CE8979 /* libFlurry_4.3.0.a in Frameworks */,
 				495761BD180E075A005F5330 /* UIKit.framework in Frameworks */,
 				495761B9180E075A005F5330 /* Foundation.framework in Frameworks */,
 			);
@@ -107,6 +158,8 @@
 		495761B7180E075A005F5330 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49507BFF1821C72600CE8979 /* Security.framework */,
+				49507BFD1821C71B00CE8979 /* SystemConfiguration.framework */,
 				495761B8180E075A005F5330 /* Foundation.framework */,
 				495761BA180E075A005F5330 /* CoreGraphics.framework */,
 				495761BC180E075A005F5330 /* UIKit.framework */,
@@ -118,16 +171,15 @@
 		495761BE180E075A005F5330 /* WilliamsCowBell */ = {
 			isa = PBXGroup;
 			children = (
+				49507BFA1821C70100CE8979 /* Flurry.h */,
+				49507BFB1821C70100CE8979 /* libFlurry_4.3.0.a */,
+				495761D6180E075A005F5330 /* Images.xcassets */,
+				495761FE180EF021005F5330 /* Resources */,
+				495761FA180EEF3E005F5330 /* Controllers */,
+				495761F9180EEF25005F5330 /* Models */,
 				495761C7180E075A005F5330 /* WCBAppDelegate.h */,
 				495761C8180E075A005F5330 /* WCBAppDelegate.m */,
-				495761CA180E075A005F5330 /* WCBRootViewController.h */,
-				495761CB180E075A005F5330 /* WCBRootViewController.m */,
-				495761CD180E075A005F5330 /* WCBDataViewController.h */,
-				495761CE180E075A005F5330 /* WCBDataViewController.m */,
-				495761D0180E075A005F5330 /* WCBModelController.h */,
-				495761D1180E075A005F5330 /* WCBModelController.m */,
 				495761D3180E075A005F5330 /* Main.storyboard */,
-				495761D6180E075A005F5330 /* Images.xcassets */,
 				495761BF180E075A005F5330 /* Supporting Files */,
 			);
 			path = WilliamsCowBell;
@@ -160,6 +212,54 @@
 				495761E6180E075B005F5330 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		495761F9180EEF25005F5330 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				495761FB180EEF83005F5330 /* WCBCowbellPageData.h */,
+				495761FC180EEF83005F5330 /* WCBCowbellPageData.m */,
+				490277B01815C59C005B779B /* WCBShakingPlayingManager.h */,
+				490277B11815C59C005B779B /* WCBShakingPlayingManager.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		495761FA180EEF3E005F5330 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				495761CA180E075A005F5330 /* WCBRootViewController.h */,
+				495761CB180E075A005F5330 /* WCBRootViewController.m */,
+				495761CD180E075A005F5330 /* WCBDataViewController.h */,
+				495761CE180E075A005F5330 /* WCBDataViewController.m */,
+				495761D0180E075A005F5330 /* WCBModelController.h */,
+				495761D1180E075A005F5330 /* WCBModelController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		495761FE180EF021005F5330 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49B7426418136D69004F07DA /* face_icon@2x.png */,
+				49B7426518136D69004F07DA /* icon_purple@2x.png */,
+				49B7426618136D69004F07DA /* icon_yellow@2x.png */,
+				49EAEF34181364BE00B709EB /* app_icon.png */,
+				49EAEF35181364BE00B709EB /* app_icon@2x.png */,
+				49EAEF36181364BE00B709EB /* cow_face.png */,
+				49EAEF37181364BE00B709EB /* hero_cow.png */,
+				49EAEF38181364BE00B709EB /* NormalCowbell.mp3 */,
+				49EAEF39181364BE00B709EB /* NormalShort.mp3 */,
+				49576205180F26C8005F5330 /* GoofyShort.mp3 */,
+				49576206180F26C8005F5330 /* SoftShort.mp3 */,
+				49576203180F23C2005F5330 /* TinnyShort.mp3 */,
+				495761FF180EF099005F5330 /* goofy_cow.png */,
+				49576200180EF099005F5330 /* purple_cow.png */,
+				495761F3180EECED005F5330 /* GoofyCowbell.mp3 */,
+				495761F4180EECED005F5330 /* SoftCowbell.mp3 */,
+				495761F5180EECED005F5330 /* TinnyCowbell.mp3 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +310,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ellidi Jatgeirsson";
 				TargetAttributes = {
+					495761B4180E075A005F5330 = {
+						DevelopmentTeam = PE7EQ66NRS;
+					};
 					495761DB180E075B005F5330 = {
 						TestTargetID = 495761B4180E075A005F5330;
 					};
@@ -239,9 +342,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49EAEF3E181364BE00B709EB /* NormalCowbell.mp3 in Resources */,
+				49EAEF3A181364BE00B709EB /* app_icon.png in Resources */,
 				495761D7180E075A005F5330 /* Images.xcassets in Resources */,
+				49B7426918136D69004F07DA /* icon_yellow@2x.png in Resources */,
+				49576202180EF099005F5330 /* purple_cow.png in Resources */,
+				49B7426718136D69004F07DA /* face_icon@2x.png in Resources */,
 				495761C3180E075A005F5330 /* InfoPlist.strings in Resources */,
+				49EAEF3C181364BE00B709EB /* cow_face.png in Resources */,
+				495761F6180EECED005F5330 /* GoofyCowbell.mp3 in Resources */,
+				49576201180EF099005F5330 /* goofy_cow.png in Resources */,
+				49B7426818136D69004F07DA /* icon_purple@2x.png in Resources */,
+				495761F7180EECED005F5330 /* SoftCowbell.mp3 in Resources */,
+				49576207180F26C8005F5330 /* GoofyShort.mp3 in Resources */,
+				49EAEF3F181364BE00B709EB /* NormalShort.mp3 in Resources */,
+				49EAEF3D181364BE00B709EB /* hero_cow.png in Resources */,
+				495761F8180EECED005F5330 /* TinnyCowbell.mp3 in Resources */,
+				49576208180F26C8005F5330 /* SoftShort.mp3 in Resources */,
 				495761D5180E075A005F5330 /* Main.storyboard in Resources */,
+				49EAEF3B181364BE00B709EB /* app_icon@2x.png in Resources */,
+				49576204180F23C2005F5330 /* TinnyShort.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +382,8 @@
 			files = (
 				495761C5180E075A005F5330 /* main.m in Sources */,
 				495761C9180E075A005F5330 /* WCBAppDelegate.m in Sources */,
+				490277B21815C59C005B779B /* WCBShakingPlayingManager.m in Sources */,
+				495761FD180EEF83005F5330 /* WCBCowbellPageData.m in Sources */,
 				495761D2180E075A005F5330 /* WCBModelController.m in Sources */,
 				495761CC180E075A005F5330 /* WCBRootViewController.m in Sources */,
 				495761CF180E075A005F5330 /* WCBDataViewController.m in Sources */,
@@ -273,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				495761EA180E075B005F5330 /* WilliamsCowBellTests.m in Sources */,
+				490277B31815C59C005B779B /* WCBShakingPlayingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,10 +514,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WilliamsCowBell/WilliamsCowBell-Prefix.pch";
 				INFOPLIST_FILE = "WilliamsCowBell/WilliamsCowBell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ell/Documents/iOS\\ Projects/WilliamsCowBell/WilliamsCowBell",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +537,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Todd Elliot Schrock (PE7EQ66NRS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Todd Elliot Schrock (PE7EQ66NRS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WilliamsCowBell/WilliamsCowBell-Prefix.pch";
 				INFOPLIST_FILE = "WilliamsCowBell/WilliamsCowBell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ell/Documents/iOS\\ Projects/WilliamsCowBell/WilliamsCowBell",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -473,6 +616,7 @@
 				495761EF180E075B005F5330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		495761F0180E075B005F5330 /* Build configuration list for PBXNativeTarget "WilliamsCowBellTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +625,7 @@
 				495761F2180E075B005F5330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,8 +10,10 @@
 
 #import "WCBDataViewController.h"
 
+#import "WCBCowbellPageData.h"
+
 /*
- A controller object that manages a simple model -- a collection of month names.
+ A controller object that manages a simple model.
  
  The controller serves as the data source for the page view controller; it therefore implements pageViewController:viewControllerBeforeViewController: and pageViewController:viewControllerAfterViewController:.
  It also implements a custom method, viewControllerAtIndex: which is useful in the implementation of the data source methods, and in the initial configuration of the application.
@@ -30,8 +32,8 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+        _pageData = [NSArray arrayWithObjects:[[WCBCowbellPageData alloc] initWithTitle:@"Goofy Cowbell" image:@"goofy_cow" sound:@"GoofyShort"],[[WCBCowbellPageData alloc] initWithTitle:@"Normal Cowbell" image:@"cow_face" sound:@"NormalShort"],
+                     [[WCBCowbellPageData alloc] initWithTitle:@"Tinny Cowbell" image:@"purple_cow" sound:@"TinnyShort"], nil];
     }
     return self;
 }

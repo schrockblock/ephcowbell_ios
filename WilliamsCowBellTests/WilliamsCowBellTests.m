@@ -7,6 +7,9 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "WCBShakingPlayingManager.h"
+#import "WCBModelController.h"
+#import "WCBCowbellPageData.h"
 
 @interface WilliamsCowBellTests : XCTestCase
 
@@ -26,9 +29,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testShakingPlayingManager
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    WCBShakingPlayingManager *manager = [[WCBShakingPlayingManager alloc] initWithSoundNamed:@"NormalShort"];
+    
+    XCTAssertTrue(manager, @"Shaking manager not instantiated");
 }
 
 @end
